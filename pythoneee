@@ -13,3 +13,7 @@ for i in range(11):
 for i in numbers:
   dictionary[i] += 1
 print(dictionary)
+
+maximum = 0
+mostFrequendNumbers []int
+for key, value := range dictionary:
