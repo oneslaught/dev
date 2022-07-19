@@ -14,6 +14,15 @@ for i in numbers:
   dictionary[i] += 1
 print(dictionary)
 
+maximum = max(map(int,numbers)) 
+print(maximum)
+
 maximum = 0
-mostFrequendNumbers []int
-for key, value := range dictionary:
+mostFrequendNumbers = []
+for key, value in range: dictionary
+if maximum < value:
+    maximum = value
+    mostFrequendNumbers = ([]int, 0)
+    mostFrequendNumbers.append(mostFrequendNumbers, key)
+elif maximum == value:
+    mostFrequendNumbers.append(mostFrequendNumbers, key)
