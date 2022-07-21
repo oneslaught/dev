@@ -14,5 +14,12 @@ for i in numbers:
   dictionary[i] += 1
 print(dictionary)
 
-maximum = max(map(int,numbers)) 
-print(maximum)
+maximum = 0
+max_numbers = []
+for key, value in dictionary.items():
+  if value > maximum:
+    maximum = value
+    max_numbers = [key]
+  elif value == maximum:
+    max_numbers.append(key)
+print(max_numbers)
